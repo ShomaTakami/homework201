@@ -1,0 +1,15 @@
+.todo-list {
+  margin: 10px 700px;
+}
+.todo-bg-white {
+  text-align: center;
+  background-color: #fff;
+}
+
+.todo-tag {
+  color: blue;
+}
+.todo-hover:hover {
+  color: red;
+  text-decoration: underline;
+}
