@@ -1,9 +1,14 @@
 import React from "react";
 
-const Header = () => {
+const Header = props => {
   return (
-    <form>
-      <input type='text' placeholder='Enter todo!' />
+    <form onSubmit={props.addTodo}>
+      <input
+        type='text'
+        placeholder='Enter todo!'
+        value={props.item}
+        onChange={props.updateItem}
+      />
       <input type='submit' value='Add to list' />
     </form>
   );
