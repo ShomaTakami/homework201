@@ -24,7 +24,7 @@ const List = props => (
             className='todo-tag todo-tag-error todo-hover'
             style={btn}
             onClick={() => props.handleRemove(i)}>
-            Delete
+            &nbsp;Done
           </span>
         </li>
       );
