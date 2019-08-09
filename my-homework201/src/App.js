@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Form from "./component/Form";
 import List from "./component/TodoList";
+import Find from "./component/find.jsx";
 
 import "./App.css";
 
@@ -35,6 +36,7 @@ export default class App extends Component {
         <Form handleAdd={this.handleAdd} />
         <div className='todo-rule' />
         <List todos={this.state.todo} handleRemove={this.handleRemove} />
+        <Find />
       </div>
     );
   }

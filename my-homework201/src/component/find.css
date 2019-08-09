@@ -1,0 +1,29 @@
+.submit {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+.submit-btn {
+  font-weight: bold;
+  margin: 2px;
+  color: white;
+  border-radius: 5px;
+}
+.submit-btn:hover {
+  color: black;
+  background: #fff;
+  cursor: pointer;
+}
+
+.submit-all {
+  background: #000;
+}
+
+.submit-active {
+  background: #000;
+}
+
+.submit-comp {
+  background: #000;
+}
